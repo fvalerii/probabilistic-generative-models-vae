@@ -1,0 +1,26 @@
+name: vae-research
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # --- System & Core ---
+  - python=3.12.8
+  - pip
+  - openssl
+  - ca-certificates
+  
+  # --- Math & Visuals ---
+  - numpy=1.26.4
+  - matplotlib=3.10.0
+  - tqdm=4.67.1
+  - ipython
+
+  # --- Jupyter Environment ---
+  - ipykernel
+  - notebook
+
+  # --- TensorFlow Stack ---
+  - pip:
+      - tensorflow==2.19.0
+      - tensorflow-probability==0.25.0
+      - tf-keras==2.19.0

@@ -1,0 +1,15 @@
+# --- Core Probabilistic & Deep Learning Frameworks ---
+tensorflow==2.19.0
+tensorflow-probability==0.25.0
+tf-keras==2.19.0
+
+# --- Numerical & Visualization Tools ---
+numpy==1.26.4
+matplotlib==3.10.0
+tqdm==4.67.1
+
+# --- Interactivity & Notebook Display ---
+# Required for 'from IPython.display import HTML' and animations
+ipython
+ipykernel
+notebook
