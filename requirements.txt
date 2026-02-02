@@ -1,3 +1,8 @@
+# --- System Dependencies (Note: FFMPEG must be installed via OS package manager) ---
+# For Windows: choco install ffmpeg
+# For macOS: brew install ffmpeg
+# For Linux: sudo apt install ffmpeg
+
 # --- Core Probabilistic & Deep Learning Frameworks ---
 tensorflow==2.19.0
 tensorflow-probability==0.25.0
@@ -7,6 +12,11 @@ tf-keras==2.19.0
 numpy==1.26.4
 matplotlib==3.10.0
 tqdm==4.67.1
+scipy>=1.17.0
+
+# --- Machine Learning Utilities ---
+# Used for data partitioning (train_test_split) and potential FID metrics
+scikit-learn>=1.3.0
 
 # --- Interactivity & Notebook Display ---
 # Required for 'from IPython.display import HTML' and animations
